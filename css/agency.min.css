@@ -20,9 +20,23 @@ a:hover {
     color: #fec503
 }
 
+.codingcolor {
+    color: #00c4ff;
+}
+
+/*
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~ THIS MAKES ALL THE MAIN STUFF 1 COLOR
+
 .text-primary {
     color: #fed136 !important
 }
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~ KEEP COMMENTED OUT UNTIL NEEDED
+
+*/
+
+
 
 h1,
 h2,
@@ -245,6 +259,7 @@ header.masthead .intro-text .intro-heading {
     margin: 0 auto;
     cursor: pointer
 }
+
 
 #portfolio .portfolio-item .portfolio-link .portfolio-hover {
     position: absolute;
