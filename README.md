@@ -3,7 +3,7 @@
 [Agency](https://startbootstrap.com/template-overviews/agency/) is a one page agency portfolio theme for [Bootstrap](http://getbootstrap.com/) created by [Start Bootstrap](http://startbootstrap.com/). This theme features several content sections, a responsive portfolio grid with hover effects, full page portfolio item modals, a responsive timeline, and a working PHP contact form.
 
 ## Preview
-
+-note that this is the old preview of the original sight before editing.
 [![Agency Preview](https://startbootstrap.com/assets/img/screenshots/themes/agency.png)](https://blackrockdigital.github.io/startbootstrap-agency/)
 
 **[View Live Preview](https://blackrockdigital.github.io/startbootstrap-agency/)**
@@ -17,6 +17,8 @@
 [![devDependencies Status](https://david-dm.org/BlackrockDigital/startbootstrap-agency/dev-status.svg)](https://david-dm.org/BlackrockDigital/startbootstrap-agency?type=dev)
 
 ## Download and Installation
+
+for this i have been using code editors and uploading to github
 
 To begin using this template, choose one of the following options to get started:
 * [Download the latest release on Start Bootstrap](https://startbootstrap.com/template-overviews/agency/)
@@ -66,3 +68,6 @@ Start Bootstrap is based on the [Bootstrap](http://getbootstrap.com/) framework 
 ## Copyright and License
 
 Copyright 2013-2019 Blackrock Digital LLC. Code released under the [MIT](https://github.com/BlackrockDigital/startbootstrap-agency/blob/gh-pages/LICENSE) license.
+
+
+## ALL INFO ABOVE THIS IS BASICLY FROM THE ORIGINAL DOWNLOAD! I HAVE BEEN WORKING TO MAKE EDITS TO THIS TO SUIT MY OWN NEEDS FOR THE COPY I HAVE WHICH IS TO MAKE A PORTFOLIO SHOWCASEING MY OWN WORK! 
