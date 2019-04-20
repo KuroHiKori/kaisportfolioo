@@ -4,6 +4,8 @@
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-agency/blob/master/LICENSE)
  */
 body {
+    /* this is the background color. replace it with an image or a few on different areas when you figure that out */
+    background-color: #09090a;
     overflow-x: hidden;
     font-family: 'Roboto Slab', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji'
 }
@@ -190,6 +192,8 @@ img::-moz-selection {
     }
 }
 
+/* this is the header image. make a new one and make sure it is on a 1900 x 1250 sized sheet */
+
 header.masthead {
     text-align: center;
     color: #fff;
@@ -214,11 +218,17 @@ header.masthead .intro-text .intro-lead-in {
 }
 
 header.masthead .intro-text .intro-heading {
+    text-shadow: 4px 4px;
+    text-transform: uppercase;
+	background: linear-gradient(to right,  #ff0066 0%, #00ffff 100%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
     font-size: 50px;
     font-weight: 700;
     line-height: 50px;
     margin-bottom: 25px;
-    font-family: Montserrat, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji'
+    font-family: Montserrat, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+    
 }
 
 @media (min-width:768px) {
@@ -246,7 +256,8 @@ header.masthead .intro-text .intro-heading {
 
 .service-heading {
     margin: 15px 0;
-    text-transform: none
+    text-transform: none;
+    font-family: 
 }
 
 #portfolio .portfolio-item {
