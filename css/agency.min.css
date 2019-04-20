@@ -176,7 +176,13 @@ img::-moz-selection {
     color: #fec503
 }
 
-#mainNav .navbar-nav .nav-item .nav-link {
+/* 
+
+THIS IS WHERE THE COLORS FOR THE MENU ARE CONTROLED 
+
+*/
+
+#mainNav .navbar-nav .nav-item-1 .nav-link {
     font-size: 90%;
     font-weight: 400;
     padding: .75em 0;
@@ -185,10 +191,30 @@ img::-moz-selection {
     font-family: Montserrat, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji'
 }
 
-#mainNav .navbar-nav .nav-item .nav-link.active,
-#mainNav .navbar-nav .nav-item .nav-link:hover {
+#mainNav .navbar-nav .nav-item-1 .nav-link.active,
+#mainNav .navbar-nav .nav-item-1 .nav-link:hover {
     color: #fed136
 }
+
+#mainNav .navbar-nav .nav-item-2 .nav-link {
+    font-size: 90%;
+    font-weight: 400;
+    padding: .75em 0;
+    letter-spacing: 1px;
+    color: #fff;
+    font-family: Montserrat, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji'
+}
+
+#mainNav .navbar-nav .nav-item-2 .nav-link.active,
+#mainNav .navbar-nav .nav-item-2 .nav-link:hover {
+    color: #fed136
+}
+
+/* 
+
+THIS IS WHERE THE CONTROLE OF THE MENU COLORS END
+
+*/
 
 @media (min-width:992px) {
     #mainNav {
