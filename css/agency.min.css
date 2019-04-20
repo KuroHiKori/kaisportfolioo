@@ -92,22 +92,22 @@ section h3.section-subheading {
 }
 
 .btn-primary {
-    background-color: #fed136;
-    border-color: #fed136
+    background: linear-gradient(#ff0066, #00ffff);
+    border-color: #00ffff;
 }
 
 .btn-primary:active,
 .btn-primary:focus,
 .btn-primary:hover {
-    background-color: #fec810 !important;
-    border-color: #fec810 !important;
+    background-color: linear-gradient #ff0066 !important;
+    border-color: #ff0066 !important;
     color: #fff
 }
 
 .btn-primary:active,
 .btn-primary:focus {
-    -webkit-box-shadow: 0 0 0 .2rem rgba(254, 209, 55, .5) !important;
-    box-shadow: 0 0 0 .2rem rgba(254, 209, 55, .5) !important
+    -webkit-box-shadow: 0 0 0 .2rem rgba(0, 255, 255, 0.54) !important;
+    box-shadow: 0 0 0 .2rem rgba(0, 255, 255, 0.47) !important
 }
 
 ::selection {
