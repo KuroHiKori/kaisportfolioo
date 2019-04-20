@@ -25,7 +25,11 @@ a:hover {
 /* FONT AWESOME COLORS FOR EXPERIANCE! */
 
 .codingcolor {
-    color: #00c4ff;
+  display: block;
+  background: -webkit-linear-gradient(#00ffff,  #356ad2);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+    
 }
 
 /*
@@ -107,7 +111,7 @@ section h3.section-subheading {
 }
 
 ::selection {
-    background: #fed136;
+    background: rgba(0, 255, 255, 0.26);
     text-shadow: none
 }
 
