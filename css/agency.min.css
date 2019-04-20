@@ -58,14 +58,6 @@ a:hover {
     font-size: 32px;
 }
 
-.fa-exclamation-triangle {
-    display: block;
-    background: -webkit-linear-gradient(#ff0000, #000000);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    font-size: 20px;
-}
-
 /*
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~ THIS MAKES ALL THE MAIN STUFF 1 COLOR
