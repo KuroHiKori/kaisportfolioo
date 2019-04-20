@@ -28,8 +28,21 @@ a:hover {
   display: block;
   background: -webkit-linear-gradient(#00ffff,  #356ad2);
   -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-    
+  -webkit-text-fill-color: transparent;   
+}
+
+.designcolor {
+    display: block;
+    background: -webkit-linear-gradient(#00ccff, #00ff00);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.threedcolor {
+    display: block;
+    background: -webkit-linear-gradient(#00ff00, #ffff00);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 /*
