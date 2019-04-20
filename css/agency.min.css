@@ -292,8 +292,19 @@ header.masthead .intro-text .intro-heading {
     }
 }
 
+.experience {
+    font-family: 'Lobster', cursive;
+    font-size: 60px;
+    font-size-adjust: auto;
+    text-shadow: 4px 3px;
+	background: linear-gradient(to right,  #00ccff 0%,   #66ffff 100%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+
 .experience-heading {
-    margin: 15px 0;
+    margin: 20px 0;
+    font-size-adjust: auto;
     text-transform: none;
     font-family: 
 }
