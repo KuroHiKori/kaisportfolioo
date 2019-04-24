@@ -5,7 +5,7 @@
  */
 
 html {
-  scroll-behavior: smooth;
+    scroll-behavior: smooth;
 }
 
 body {
@@ -30,10 +30,10 @@ a:hover {
 /* FONT AWESOME COLORS FOR EXPERIANCE! */
 
 .codingcolor {
-  display: block;
-  background: -webkit-linear-gradient(#00ffff,  #356ad2);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;   
+    display: block;
+    background: -webkit-linear-gradient(#00ffff, #356ad2);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 .designcolor {
@@ -188,12 +188,13 @@ THIS IS WHERE THE COLORS FOR THE MENU ARE CONTROLED
     padding: .75em 0;
     letter-spacing: 1px;
     color: #fff;
-    font-family: Montserrat, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji'
+    margin-right: 10px;
+    font-family: Montserrat, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
 }
 
 #mainNav .navbar-nav .nav-item-1 .nav-link.active,
 #mainNav .navbar-nav .nav-item-1 .nav-link:hover {
-    color: #fed136
+    color: #00ccff;
 }
 
 #mainNav .navbar-nav .nav-item-2 .nav-link {
@@ -202,11 +203,57 @@ THIS IS WHERE THE COLORS FOR THE MENU ARE CONTROLED
     padding: .75em 0;
     letter-spacing: 1px;
     color: #fff;
+    margin-right: 10px;
     font-family: Montserrat, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji'
 }
 
 #mainNav .navbar-nav .nav-item-2 .nav-link.active,
 #mainNav .navbar-nav .nav-item-2 .nav-link:hover {
+    color: #fed136
+}
+
+#mainNav .navbar-nav .nav-item-3 .nav-link {
+    font-size: 90%;
+    font-weight: 400;
+    padding: .75em 0;
+    letter-spacing: 1px;
+    color: #fff;
+    margin-right: 10px;
+    font-family: Montserrat, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji'
+}
+
+#mainNav .navbar-nav .nav-item-3 .nav-link.active,
+#mainNav .navbar-nav .nav-item-3 .nav-link:hover {
+    color: #fed136
+}
+
+#mainNav .navbar-nav .nav-item-4 .nav-link {
+    font-size: 90%;
+    font-weight: 400;
+    padding: .75em 0;
+    letter-spacing: 1px;
+    color: #fff;
+    margin-right: 10px;
+    font-family: Montserrat, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji'
+}
+
+#mainNav .navbar-nav .nav-item-4 .nav-link.active,
+#mainNav .navbar-nav .nav-item-4 .nav-link:hover {
+    color: #fed136
+}
+
+#mainNav .navbar-nav .nav-item-5 .nav-link {
+    font-size: 90%;
+    font-weight: 400;
+    padding: .75em 0;
+    letter-spacing: 1px;
+    color: #fff;
+    margin-right: 10px;
+    font-family: Montserrat, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji'
+}
+
+#mainNav .navbar-nav .nav-item-5 .nav-link.active,
+#mainNav .navbar-nav .nav-item-5 .nav-link:hover {
     color: #fed136
 }
 
@@ -276,15 +323,15 @@ header.masthead .intro-text .intro-lead-in {
 header.masthead .intro-text .intro-heading {
     text-shadow: 4px 4px;
     text-transform: uppercase;
-	background: linear-gradient(to right,  #ff0066 0%, #00ffff 100%);
-	-webkit-background-clip: text;
-	-webkit-text-fill-color: transparent;
+    background: linear-gradient(to right, #ff0066 0%, #00ffff 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
     font-size: 50px;
     font-weight: 700;
     line-height: 50px;
     margin-bottom: 25px;
     font-family: Montserrat, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
-    
+
 }
 
 @media (min-width:768px) {
@@ -315,16 +362,16 @@ header.masthead .intro-text .intro-heading {
     font-size: 60px;
     font-size-adjust: auto;
     text-shadow: 4px 3px;
-	background: linear-gradient(to right,  #00ccff 0%,   #66ffff 100%);
-	-webkit-background-clip: text;
-	-webkit-text-fill-color: transparent;
+    background: linear-gradient(to right, #00ccff 0%, #66ffff 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 .experience-heading {
     margin: 20px 0;
     font-size-adjust: auto;
     text-transform: none;
-    font-family: 
+    font-family:
 }
 
 #portfolio .portfolio-item {
