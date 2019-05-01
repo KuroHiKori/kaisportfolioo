@@ -23,9 +23,15 @@ a {
     color: #fed136
 }
 
+
+/* THIS IS THE HOVER COLOR
+
+
 a:hover {
     color: #fec503
 }
+
+*/
 
 /* FONT AWESOME COLORS FOR EXPERIANCE! */
 
@@ -350,35 +356,7 @@ header.masthead .intro-text .intro-heading {
         font-family: 'Droid Serif', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji'
     }
 
-    /*this is where the top contact buttons are
-
-    ul.social-buttons-top {
-        margin-bottom: 15;
-    }
-
-    ul.social-buttons-top li a {
-        font-size: 20px;
-        line-height: 50px;
-        display: block;
-        width: 50px;
-        height: 50px;
-        -webkit-transition: all .3s;
-        transition: all .3s;
-        color: #fff;
-        border-radius: 100%;
-        outline: 0;
-        background-color: #212529
-    }
-
-    ul.social-buttons-top li a:active,
-    ul.social-buttons-top li a:focus,
-    ul.social-buttons-top li a:hover {
-        background-color: #fed136
-    }
-
-  */
-
-
+    /* THIS IS WHERE THE TOP SOCIAL MIDIA BUTTONS ARE */
 
 
 
@@ -390,15 +368,19 @@ header.masthead .intro-text .intro-heading {
         color: #fff;
         width: 50px;
         height: 50px;
-        display: block;
+        display: inline-block;
         line-height: 50px;
         font-size: 20px;
+        -webkit-transition: all .3s;
+        transition: all .3s;
+        outline: 0;
     }
 
     .twitter-top:active,
     .twitter-top:focus,
     .twitter-top:hover {
-        background-color: #fed136
+        background: white;
+        color:#38A1F3;
     }
 
     .youtube-top {
@@ -407,15 +389,19 @@ header.masthead .intro-text .intro-heading {
         color: #fff;
         width: 50px;
         height: 50px;
-        display: block;
+        display: inline-block;
         line-height: 50px;
         font-size: 20px;
+        -webkit-transition: all .3s;
+        transition: all .3s;
+        outline: 0;
     }
-    
+
     .youtube-top:active,
     .youtube-top:focus,
     .youtube-top:hover {
-        background-color: #fed136
+        background: white;
+        color: #ff0000;
     }
 
     .linkedin-top {
@@ -424,18 +410,22 @@ header.masthead .intro-text .intro-heading {
         color: #fff;
         width: 50px;
         height: 50px;
-        display: block;
+        display: inline-block;
         line-height: 50px;
         font-size: 20px;
+        -webkit-transition: all .3s;
+        transition: all .3s;
+        outline: 0;
     }
-    
+
     .linkedin-top:active,
     .linkedin-top:focus,
     .linkedin-top:hover {
-        background-color: #fed136
+        background: white;
+        color: #0077b5;
     }
 
-
+    /* THIS IS WHERE THE SOCIAL MIDIA BUTTON CODE ENDS */
 
     header.masthead .intro-text .intro-heading {
         font-size: 75px;
