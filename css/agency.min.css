@@ -380,7 +380,7 @@ header.masthead .intro-text .intro-heading {
     .twitter-top:focus,
     .twitter-top:hover {
         background: white;
-        color:#38A1F3;
+        color: #38A1F3;
     }
 
     .youtube-top {
@@ -423,6 +423,27 @@ header.masthead .intro-text .intro-heading {
     .linkedin-top:hover {
         background: white;
         color: #0077b5;
+    }
+
+    .soundcloud-top {
+        background-color: #ff7700;
+        border-radius: 100%;
+        color: #fff;
+        width: 50px;
+        height: 50px;
+        display: inline-block;
+        line-height: 50px;
+        font-size: 20px;
+        -webkit-transition: all .3s;
+        transition: all .3s;
+        outline: 0;
+    }
+
+    .soundcloud-top:active,
+    .soundcloud-top:focus,
+    .soundcloud-top:hover {
+        background: white;
+        color: #ff7700;
     }
 
     /* THIS IS WHERE THE SOCIAL MIDIA BUTTON CODE ENDS */
