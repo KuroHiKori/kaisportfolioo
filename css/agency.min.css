@@ -124,6 +124,7 @@ section h3.section-subheading {
 .btn-primary {
     background: linear-gradient(#ff0066, #00ffff);
     border-color: #00ffff;
+    margin-top: 10px;
 }
 
 .btn-primary:active,
@@ -360,7 +361,36 @@ header.masthead .intro-text .intro-heading {
 
 
 
+    ul.social-buttons {
+        margin-bottom: 0
+    }
 
+    ul.social-buttons li a {
+        font-size: 20px;
+        line-height: 50px;
+        display: block;
+        width: 50px;
+        height: 50px;
+        -webkit-transition: all .3s;
+        transition: all .3s;
+        color: #fff;
+        border-radius: 100%;
+        outline: 0;
+        background-color: #212529
+    }
+
+    ul.social-buttons li a:active,
+    ul.social-buttons li a:focus,
+    ul.social-buttons li a:hover {
+        background-color: #fed136
+    }
+
+
+    ul.social-buttons-top-1 {
+        margin-bottom: 0;
+        text-align: center;
+
+    }
 
     .twitter-top {
         background-color: #38A1F3;
@@ -442,6 +472,27 @@ header.masthead .intro-text .intro-heading {
     .soundcloud-top:active,
     .soundcloud-top:focus,
     .soundcloud-top:hover {
+        background: white;
+        color: #ff7700;
+    }
+
+    .angerycatmiddle {
+        background-color: #ff7700;
+        border-radius: 100%;
+        color: #fff;
+        width: 50px;
+        height: 50px;
+        display: inline-block;
+        line-height: 50px;
+        font-size: 20px;
+        -webkit-transition: all .3s;
+        transition: all .3s;
+        outline: 0;
+    }
+
+    .angerycatmiddle:active,
+    .angerycatmiddle:focus,
+    .angerycatmiddle:hover {
         background: white;
         color: #ff7700;
     }
