@@ -392,7 +392,8 @@ header.masthead .intro-text .intro-heading {
 
     }
 
-/* ======================================================
+/* 
+    ======================================================
     THIS IS WHERE THE COLORS AND CODE FOR THE LINKS IN THE HEADER ARE
     =====================================================
     */
@@ -502,7 +503,11 @@ header.masthead .intro-text .intro-heading {
         color: #ff7700;
     }
 
-    /* THIS IS WHERE THE SOCIAL MIDIA BUTTON CODE ENDS */
+    /* 
+    ======================================
+    THIS IS WHERE THE SOCIAL MIDIA BUTTON CODE ENDS 
+    ======================================
+    */
 
     header.masthead .intro-text .intro-heading {
         font-size: 75px;
