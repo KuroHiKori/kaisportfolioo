@@ -392,6 +392,11 @@ header.masthead .intro-text .intro-heading {
 
     }
 
+/* ======================================================
+    THIS IS WHERE THE COLORS AND CODE FOR THE LINKS IN THE HEADER ARE
+    =====================================================
+    */
+
     .twitter-top {
         background-color: #38A1F3;
         border-radius: 100%;
