@@ -483,7 +483,7 @@ header.masthead .intro-text .intro-heading {
     }
 
     .angerycatmiddle {
-        background-color: #ff7700;
+        background-color: transparent;
         border-radius: 100%;
         color: #fff;
         width: 50px;
@@ -500,7 +500,6 @@ header.masthead .intro-text .intro-heading {
     .angerycatmiddle:focus,
     .angerycatmiddle:hover {
         background: white;
-        color: #ff7700;
     }
 
     /* 
