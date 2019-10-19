@@ -20,7 +20,7 @@ p {
 }
 
 a {
-    color: #fed136
+    color: #ffffff
 }
 
 
@@ -214,7 +214,7 @@ THIS IS WHERE THE COLORS FOR THE MENU ARE CONTROLED
 
 #mainNav .navbar-nav .nav-item-2 .nav-link.active,
 #mainNav .navbar-nav .nav-item-2 .nav-link:hover {
-    color: #fed136
+    color: #00ff00
 }
 
 #mainNav .navbar-nav .nav-item-3 .nav-link {
@@ -535,9 +535,22 @@ header.masthead .intro-text .intro-heading {
     font-family:
 }
 
+.portfolio {
+    color: #3e444a;
+    font-family: 'Lobster', cursive;
+    font-size: 60px;
+    font-size-adjust: auto;
+    text-shadow: 4px 3px;
+    background: -webkit-linear-gradient(#00ff00, #ffff00);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
 #portfolio .portfolio-item {
     right: 0;
-    margin: 0 0 15px
+    margin: 0 0 15px;
+    background: #000000;
+        
 }
 
 #portfolio .portfolio-item .portfolio-link {
@@ -545,8 +558,11 @@ header.masthead .intro-text .intro-heading {
     display: block;
     max-width: 400px;
     margin: 0 auto;
-    cursor: pointer
+    cursor: pointer;
+    background: #000000;
 }
+
+
 
 
 #portfolio .portfolio-item .portfolio-link .portfolio-hover {
@@ -1009,5 +1025,5 @@ ul.social-buttons li a {
 ul.social-buttons li a:active,
 ul.social-buttons li a:focus,
 ul.social-buttons li a:hover {
-    background-color: #fed136
+    background-color: #00ffff
 }
