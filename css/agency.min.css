@@ -217,36 +217,6 @@ THIS IS WHERE THE COLORS FOR THE MENU ARE CONTROLED
     color: #00ff00
 }
 
-#mainNav .navbar-nav .nav-item-3 .nav-link {
-    font-size: 90%;
-    font-weight: 400;
-    padding: .75em 0;
-    letter-spacing: 1px;
-    color: #fff;
-    margin-right: 10px;
-    font-family: Montserrat, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji'
-}
-
-#mainNav .navbar-nav .nav-item-3 .nav-link.active,
-#mainNav .navbar-nav .nav-item-3 .nav-link:hover {
-    color: #fed136
-}
-
-#mainNav .navbar-nav .nav-item-4 .nav-link {
-    font-size: 90%;
-    font-weight: 400;
-    padding: .75em 0;
-    letter-spacing: 1px;
-    color: #fff;
-    margin-right: 10px;
-    font-family: Montserrat, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji'
-}
-
-#mainNav .navbar-nav .nav-item-4 .nav-link.active,
-#mainNav .navbar-nav .nav-item-4 .nav-link:hover {
-    color: #fed136
-}
-
 #mainNav .navbar-nav .nav-item-5 .nav-link {
     font-size: 90%;
     font-weight: 400;
@@ -259,7 +229,7 @@ THIS IS WHERE THE COLORS FOR THE MENU ARE CONTROLED
 
 #mainNav .navbar-nav .nav-item-5 .nav-link.active,
 #mainNav .navbar-nav .nav-item-5 .nav-link:hover {
-    color: #fed136
+    color: #ff0066
 }
 
 /* 
@@ -573,7 +543,8 @@ header.masthead .intro-text .intro-heading {
     -webkit-transition: all ease .5s;
     transition: all ease .5s;
     opacity: 0;
-    background: rgba(254, 209, 54, .9)
+    background: rgba(54, 254, 146, 0.9);
+ 
 }
 
 #portfolio .portfolio-item .portfolio-link .portfolio-hover:hover {
