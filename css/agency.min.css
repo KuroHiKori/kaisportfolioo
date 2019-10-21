@@ -489,7 +489,7 @@ header.masthead .intro-text .intro-heading {
 }
 
 .experience {
-    color: #3e444a;
+    color: rgb(160, 160, 160);
     font-family: 'Lobster', cursive;
     font-size: 60px;
     font-size-adjust: auto;
@@ -507,7 +507,7 @@ header.masthead .intro-text .intro-heading {
 }
 
 .portfolio {
-    color: #3e444a;
+    color: rgb(160, 160, 160);
     font-family: 'Lobster', cursive;
     font-size: 60px;
     font-size-adjust: auto;
